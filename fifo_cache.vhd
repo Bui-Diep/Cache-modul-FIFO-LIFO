@@ -65,3 +65,4 @@ begin
   empty <= '1' when wr_ptr = rd_ptr and rd_en = '1' else '0';
 
 end rtl;
+/*  */
